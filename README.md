@@ -23,7 +23,7 @@ If anything goes wrong during using, please submit issues in this repository, or
 ```jsx
 import React from 'react'
 import { render } from 'react-dom'
-import ReactAwesomePlayer from 'chip-video-player'
+import ChipVideoPlayer from 'chip-video-player'
 
 class App extends React.Component {
   state = {
@@ -76,7 +76,7 @@ class App extends React.Component {
 
   render () {
     const { options } = this.state
-    return <ReactAwesomePlayer
+    return <ChipVideoPlayer
       options={options}
       loadeddata={this.loadeddata}
       canplay={this.canplay}

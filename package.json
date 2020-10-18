@@ -1,6 +1,6 @@
 {
   "name": "chip-video-player",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "video.js component for React",
   "main": "lib/index.js",
   "scripts": {
