@@ -1,6 +1,6 @@
 {
   "name": "chip-video-player",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "video.js component for React",
   "main": "lib/index.js",
   "scripts": {
@@ -17,14 +17,15 @@
   "keywords": [
     "react-video-player",
     "react-awesome-player",
+    "chip-video-player",
     "react video player",
     "video player",
     "react player",
     "react video"
   ],
   "author": {
-    "name": "Peng Zhang",
-    "email": "returnzp@gmail.com"
+    "name": "Chip",
+    "email": "deshi24@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {

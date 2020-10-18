@@ -1,6 +1,6 @@
 /**
  *
- * React-Awesome-Player
+ * Chip-Video-Player
  *
  */
 

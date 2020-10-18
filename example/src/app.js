@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import ReactAwesomePlayer from 'react-awesome-player'
+import ChipVideoPlayer from 'chip-video-player'
 
 class App extends React.Component {
   state = {
@@ -54,7 +54,7 @@ class App extends React.Component {
   render () {
     const { options } = this.state
     return <div className="test-demo">
-      <ReactAwesomePlayer
+      <ChipVideoPlayer
         options={options}
         loadeddata={this.loadeddata}
         canplay={this.canplay}
