@@ -54,7 +54,7 @@ const DEFAULT_EVENTS = [
   'error',
 ];
 
-class ReactAwesomePlayer extends React.Component {
+class ChipVideoPlayer extends React.Component {
   static defaultProps = {
     options: {}
   }
@@ -170,7 +170,7 @@ class ReactAwesomePlayer extends React.Component {
   }
 }
 
-ReactAwesomePlayer.propTypes = {
+ChipVideoPlayer.propTypes = {
   options: PropTypes.object,
   defaultSubtitle: PropTypes.string,
   events: PropTypes.array,
@@ -188,4 +188,4 @@ ReactAwesomePlayer.propTypes = {
   timeupdate: PropTypes.func,
 };
 
-export default ReactAwesomePlayer;
+export default ChipVideoPlayer;

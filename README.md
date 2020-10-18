@@ -9,7 +9,7 @@
 [![NPM](https://nodei.co/npm-dl/react-awesome-player.png?months=9&height=3)](https://nodei.co/npm/react-awesome-player/)
 
 
-## react-awesome-player
+## chip-video-player
 
 [video.js](https://github.com/videojs/video.js) player component for React.
 
@@ -23,7 +23,7 @@ If anything goes wrong during using, please submit issues in this repository, or
 ```jsx
 import React from 'react'
 import { render } from 'react-dom'
-import ReactAwesomePlayer from 'react-awesome-player'
+import ReactAwesomePlayer from 'chip-video-player'
 
 class App extends React.Component {
   state = {
@@ -100,7 +100,7 @@ render(<App />, document.getElementById('root'))
 #### NPM
 
 ``` bash
-npm install react-awesome-player --save
+npm install chip-video-player --save
 ```
 
 
